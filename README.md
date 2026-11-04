@@ -1,6 +1,6 @@
 # Salary negotiation
 
-![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/andreiTn/income-calculator/actions/workflows/ci.yml/badge.svg)
 
 Estimate take-home pay for a Romanian SRL freelancer. You enter a contract, days off, salary, and costs. The app shows micro tax, profit tax, dividend tax, the health contribution on dividends, and the rates you need for a dividend target.
 
