@@ -1,0 +1,18 @@
+export const FISCAL_DEFAULTS = {
+  year: 2026,
+  hoursPerDay: '8',
+  microPercent: '1',
+  profitPercent: '16',
+  dividendPercent: '16',
+  grossRon: '4325',
+  untaxedRon: '200',
+  personalDeductionRon: '865',
+  casPercent: '25',
+  employeeCassPercent: '10',
+  incomeTaxPercent: '10',
+  camPercent: '2.25',
+  cassReferenceWageRon: '4050',
+  otherIncomeRon: '0',
+  microCapRon: '509850',
+  salaryMonths: 12,
+} as const
