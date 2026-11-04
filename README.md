@@ -1,10 +1,20 @@
-# Salary negotiation
+# Contract rate calculator
 
 ![CI](https://github.com/andreiTn/income-calculator/actions/workflows/ci.yml/badge.svg)
 
 Estimate take-home pay for a Romanian SRL freelancer. You enter a contract, days off, salary, and costs. The app shows micro tax, profit tax, dividend tax, the health contribution on dividends, and the rates you need for a dividend target.
 
 This is not tax, accounting, or legal advice.
+
+## Screenshots
+
+Contract, salary, and expenses:
+
+![Contract, salary, and expenses](docs/inputs.png)
+
+Micro vs profit take-home for the same revenue:
+
+![Micro vs profit results](docs/results.png)
 
 ## Run locally
 

@@ -12,7 +12,7 @@ const caption = computed(() => fxCaption(dashboard.fxStatus, dashboard.fx))
 <template>
   <q-header elevated>
     <q-toolbar>
-      <q-toolbar-title>Salary negotiation</q-toolbar-title>
+      <q-toolbar-title>Contract rate calculator</q-toolbar-title>
       <nav class="app-nav">
         <router-link to="/" :class="{ 'nav-link--on': route.name === 'calculator' }">Calculator</router-link>
         <router-link to="/how-it-works" :class="{ 'nav-link--on': route.name === 'how-it-works' }">How this works</router-link>
