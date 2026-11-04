@@ -84,6 +84,18 @@ body {
   margin-top: 12px;
 }
 
+/* Half-width salary card: label above amount so long copy and "… RON" never wrap mid-value. */
+.pay-grid .stat-pair {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  justify-content: flex-start;
+}
+
+.pay-grid .stat-pair > :last-child {
+  white-space: nowrap;
+}
+
 .expense-row {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(240px, 1.4fr) auto;
